@@ -2,8 +2,16 @@
 This application simulation a a To-do list application to help you keep track the TODO list and chosse what you need to do.
 ## UML-Class-Diagram
 UML (Unified Modeling Language) means that it is a way of representing the structure of Todo lists that includes classes, objects, packages, and the relationships between those elements.
-![Example1](https://github.com/Nouribaher/TodoList/blob/main/TodoList-UML-Diagram.png)
+![Example1](https://github.com/Nouribaher/TodoList/blob/main/TodoList-UML-Diagram.png).
 
+## Usage
+•	Using of easyUML that is a UML diagram tool for NetBeans.
+
+•	Class diagrams contain classes, alongside with their attributes and their behaviours.
+
+•	Relation between different classes represented as per shown below:
+
+![Example2](https://github.com/Nouribaher/TodoList/blob/main/Components%20and%20Relations..png)
 
 ## Getting Started
 This application can be run directly via TodoList or via generated jar file.
