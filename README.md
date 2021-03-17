@@ -1,5 +1,10 @@
 # TodoList Project
-This application simulation a a to-do list application to help you keep track the TODO list and chosse what you need to do.
+This application simulation a a To-do list application to help you keep track the TODO list and chosse what you need to do.
+## UML-Class-Diagram
+UML (Unified Modeling Language) means that it is a way of representing the structure of Todo lists that includes classes, objects, packages, and the relationships between those elements.
+![Example1](https://github.com/Nouribaher/TodoList/blob/main/TodoList-UML-Diagram.png)
+
+
 ## Getting Started
 This application can be run directly via TodoList or via generated jar file.
 
@@ -8,8 +13,8 @@ In the first step, we should have to  know the path of files and start the appli
 ```bash
  test run 
 ```
-#### Test.Java
-This class is part of the TodoList app. As there are some lists that help the user to choose one of the tasks,
+#### Test.Java 
+This class is part of the TodoList app. As there are some lists that help the user to choose one of the tasks, 
 and then the data will be sent to other classs and recorded in the class file to be saved, updated and reviewed at any time.
 ## Usage
 ```JAVA
@@ -21,5 +26,5 @@ import java.util.ArrayList;
         fileHandler.WriteAsData(taskArrayList);
         fileHandler.readASData();
 ```
-![Example1](/Users/sda-01-mbpro/TodoList/src/Screenshot1.png)
+![Example2](https://github.com/Nouribaher/TodoList/blob/main/Screenshot1.png)
 
