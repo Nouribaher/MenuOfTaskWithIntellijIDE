@@ -15,7 +15,7 @@
 
 
 # TodoList Project
-This application simulation a a To-do list application to help you keep track the TODO list and chosse what you need to do.
+  This application simulation a a To-do list application to help you keep track the TODO list and chosse what you need to do.
 ## UML-Class-Diagram
 UML (Unified Modeling Language) means that it is a way of representing the structure of Todo lists that includes classes, objects, packages, and the relationships between those elements.
 ![Example1](https://github.com/Nouribaher/TodoList/blob/main/TodoList-UML-Diagram.png).
