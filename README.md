@@ -117,6 +117,11 @@ class FileInputMenuOftask {
 ### Testing
 Testing is critical to your software. These packages help make it easier.
 ![Example4](https://github.com/Nouribaher/MenuOfTaskWithIntellijIDE/blob/master/TestTodoList.png) 
+* [Gradle 6.8.3]
+* [Build time:2021-02-22 16:13:28 UTC]
+* [Groovy: 2.5.12]
+* [OS: Mac OS X 11.2.2 x86_64]
+
 ## Tools
 
 ### IntelliJ IDEA
