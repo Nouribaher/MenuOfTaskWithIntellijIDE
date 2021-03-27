@@ -1,3 +1,10 @@
+/*The TodoList program implements an application that simply displays  the task structure.
+ * to alow  to help the user  make the constructor of the task and chosse what you need to do.
+ *@author  Nouri Baher
+ *@Softwear Intellij IDEA
+ *@version 2020.3
+ * @since  Mon, Feb 22, 2021 till Fri, Mar 19, 2021
+ */
 package TodoList;
 
 public class Task {
@@ -47,7 +54,10 @@ public class Task {
 
     public Task() {
     }
-
+    /*
+    Using of  toString() method to get string representation of an object. Whenever we try to print
+    the Object reference then internally toString() method is invoked.
+     */
     public String toString() {
         return "Task Title = " + this.title + " , Project = " + this.project + " , DueDate = " + this.dueDate + ", MarkAsDone = " + this.status;
     }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 class FileInputMenuOftask {
     private String path = "src/TodoList/";
     private Object String;
-
+  // Allow the user to save of the data task to the file
     public void WriteAsData (ArrayList<Task> list){
         try {
             FileWriter fileWriter = new FileWriter(new File (path + "OutOfTheFile.txt"));
@@ -20,13 +20,16 @@ class FileInputMenuOftask {
 
             writer.close();
         }
-
+        /*
+         * @throws IOException  If an input or output
+         *                      exception occurred
+         */
         catch(IOException e) {
             System.out.println("Menu Of task doesn't found"+e);
         }
 
     }
-
+    // Allow the user to read the data task from the file
     public ArrayList<Task> readASData(){
         ArrayList<Task> readerList = new ArrayList<>();
         try {
@@ -39,7 +42,10 @@ class FileInputMenuOftask {
             reader.close();
 
         }
-
+        /*
+         * @throws IOException  If an input or output
+         *                      exception occurred
+         */
         catch(IOException e) {
             System.out.println("Menu Of task error occurred." + e);
             e.printStackTrace();
